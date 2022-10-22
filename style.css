@@ -6,8 +6,26 @@
 
 :root {
     --cyan: rgb(72, 212, 212);
+    --black: rgb(26, 26, 26);
 }
 
 body {
     background-color: var(--cyan);
+    min-height: 100vh;
+}
+
+.drawing {
+    border: 1px solid green;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tape {
+    min-width: 650px;
+    max-width: 45vw;
+    height: 47vh;
+    background-color: var(--black);
+    border-radius: 20px;
 }
