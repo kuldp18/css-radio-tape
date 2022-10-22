@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cyan: rgb(72, 212, 212);
+}
+
+body {
+    background-color: var(--cyan);
+}
