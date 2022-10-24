@@ -6,11 +6,11 @@ Pure CSS Drawing of a fancy radio tape.
 
 https://css-radio-tape.netlify.app/
 
-## Author
+## Author ✍
 
 - [@kuldp18](https://www.github.com/kuldp18)
 
-## Screenshots
+## Screenshots 📷
 
 Original:
 
