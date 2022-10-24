@@ -5,7 +5,7 @@
 }
 
 :root {
-    --cyan: rgb(72, 212, 212);
+    --cyan: rgb(12, 231, 231);
     --black: rgb(26, 26, 26);
 
     /* strips */
@@ -19,6 +19,15 @@
 body {
     background-color: var(--cyan);
     min-height: 100vh;
+}
+
+.tape {
+    transition: all 0.3s ease-in-out;
+}
+
+.tape:hover {
+    cursor: pointer;
+    transform: scale(1.3);
 }
 
 
@@ -91,7 +100,55 @@ body {
     height: 90px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+
+.top-stuff .hero .black-stuff {
+    height: 100%;
+    width: 60%;
+    background-color: var(--black);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+
+.black-stuff .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--cyan);
+    border: 5px solid white;
+}
+
+.semi-circle {
+    height: 45px;
+    width: 90px;
+    /* border: 1px solid red; */
+    transform: rotate(90deg);
+    border-radius: 45px 45px 0 0;
+    background-color: rgba(0, 0, 0, 0.712);
+    position: absolute;
+    top: 22px;
+    bottom: 0;
+    left: 59px;
+
+}
+
+.black-stuff .rect {
+    width: 160px;
+    height: 60px;
+    background-color: var(--cyan);
+    position: relative;
+}
+
+
 
 .top-stuff .hero .strip {
     width: 100%;
