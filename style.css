@@ -53,7 +53,6 @@ body {
 
 
 .drawing {
-    border: 1px solid green;
     min-height: 100vh;
     display: flex;
     justify-content: center;
