@@ -116,6 +116,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     gap: 5px;
+
 }
 
 .black-stuff .circle {
@@ -124,9 +125,10 @@ body {
     border-radius: 50%;
     background-color: var(--cyan);
     border: 5px solid white;
+
 }
 
-.semi-circle {
+.black-stuff .semi-circle {
     height: 45px;
     width: 90px;
     /* border: 1px solid red; */
@@ -137,7 +139,7 @@ body {
     top: 22px;
     bottom: 0;
     left: 59px;
-
+    z-index: 9999999;
 }
 
 .black-stuff .rect {
